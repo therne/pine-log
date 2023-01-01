@@ -4,6 +4,9 @@
 
 Simple yet powerful logger based on [pino](https://github.com/pinojs/pino) with contextual logging support.
 
+
+![Example](./docs/example-pretty.png)
+
 ```
 npm i pino@8 pine-log
 ```
