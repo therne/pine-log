@@ -1,11 +1,11 @@
 {
   "name": "pine-log",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple yet powerful Node.JS logger based on pino, with contextual logging support.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && cp ./src/*.mjs ./lib/",
     "prepublish": "rm -rf lib/ && tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint"

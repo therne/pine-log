@@ -10,6 +10,6 @@ export function createPinoLogger(overrideOptions: P.LoggerOptions = {}): P.Logge
       timestamp: () => `,"at":"${new Date().toISOString()}"`,
       ...overrideOptions,
     },
-    isPrettyLog ? pino.transport({ target: './pretty-log.mjs' }) : null,
+    isPrettyLog ? pino.transport({ target: __dirname + '/pretty-log.mjs' }) : null,
   );
 }
