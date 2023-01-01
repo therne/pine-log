@@ -1,5 +1,7 @@
 # 🌲🪵 `pine-log`
 
+![NPM](https://img.shields.io/npm/v/pine-log?style=for-the-badge&color=red)
+
 Simple yet powerful logger based on [pino](https://github.com/pinojs/pino) with contextual logging support.
 
 ```
